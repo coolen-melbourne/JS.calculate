@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="w-screen bg-green-300 h-screen">
+      <div class="max-w-2xl mx-auto h-[637px] pt-5">
+        <div
+          class="bg-white border w-[500px] ml-[100px] h-[600px] rounded-lg border-red-600"
+        >
+          <input
+            id="input"
+            type="text"
+            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:bg-white focus:border-blue-500"
+          />
+          <div class="bg-green-300 w-[500px] mt-2 h-[2px]"></div>
+
+          <div class="">
+            <div class="flex items-center gap-3 p-6">
+              <button
+                id="buttonP"
+                class="bg-green-300 w-[100px] rounded-lg text-red-900"
+              >
+                +
+              </button>
+              <button
+                id="buttonM"
+                class="bg-green-300 w-[100px] rounded-lg text-red-900"
+              >
+                -
+              </button>
+              <button
+                id="multiplication"
+                class="bg-green-300 w-[100px] rounded-lg text-red-900"
+              >
+                *
+              </button>
+
+              <button
+                id="division"
+                class="bg-green-300 w-[100px] rounded-lg text-red-900"
+              >
+                /
+              </button>
+            </div>
+            <div class="bg-green-300 w-[500px] mt-2 h-[2px]"></div>
+
+            <div>
+              <div id="one" class="flex items-center gap-2 p-4">
+                <button
+                  id="one"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  1
+                </button>
+                <button
+                  id="two"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  2
+                </button>
+                <button
+                  id="three"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  3
+                </button>
+              </div>
+              <div class="flex items-center gap-2 p-4">
+                <button
+                  id="four"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  4
+                </button>
+                <button
+                  id="five"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  5
+                </button>
+                <button
+                  id="six"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  6
+                </button>
+              </div>
+              <div class="flex items-center gap-2 p-4">
+                <button
+                  id="seven"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  7
+                </button>
+                <button
+                  id="eight"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  8
+                </button>
+                <button
+                  id="nine"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  9
+                </button>
+              </div>
+
+              <div class="pl-[100px] gap-1 flex">
+                <button
+                  id="zero"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  0
+                </button>
+                <button
+                  onclick="calc()"
+                  id="equal"
+                  class="bg-green-300 w-[150px] h-[50px] rounded-lg text-[white]"
+                >
+                  =
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
